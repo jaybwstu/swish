@@ -442,6 +442,7 @@ useEffect(() => {
                 />
               </div>
               <WalletMultiButton
+              className="Wal-Button"
               />
               <p
               >
