@@ -494,7 +494,7 @@ useEffect(() => {
       <style jsx>{`
         
 
-        @media (min-width: 1920px) and (min-height: 1080px) {
+        @media (min-width: 1280px) and (min-height: 800px) {
           main {
             font-size: 30px;
           }
