@@ -228,53 +228,20 @@ useEffect(() => {
       </Head>
       {candyMachine && collection ? (
         <main
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            gap: "48px",
-            minHeight: "100vh",
-            backgroundColor: "#fbf3e2e6",
-            color: "#02395d",
-            fontSize: "15px",
-            lineHeight: "1.45",
-            margin: "0",
-            backgroundImage: "url(https://soulagain.crypto-elites.club/assets/images/nft/meshspiralmulti.svg)",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            backgroundPosition: "50% 50%",
-            flexDirection: "column",
-          }}
+            className="main-container"
         >
           <div
             className="header"
-            style={{
-              backgroundColor: "#02395d",
-              height: "100px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              marginBottom: "50px",
-              width: "100%",
-            }}
           >
-            <a href="https://soulagain.crypto-elites.club/" className="Navhome" style={{ color: "#FBF3E2", textDecoration: "none", fontSize: "24px" }}>
+            <a href="https://soulagain.crypto-elites.club/" className="Navhome">
               Home
             </a>
           </div>          
           <div
             className="cm-window"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              borderRadius: "16px",
-              boxShadow: "0px 0px 15px -4px rgba(0,0,0,0.20)",
-              border: "1px solid rgba(0, 0, 0, 0.1)",
-              backgroundColor: "#fbf3e2",
-            }}
           >
             <h1 className="title">Soul Again</h1>
-            <div className="social-container" style={{ display: "flex", alignItems: "center", gap: "12px", justifyContent: "space-evenly" }}>
+            <div className="social-container">
               <a href="https://discord.gg/cryptoelitesclub">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -415,17 +382,12 @@ useEffect(() => {
                 </svg>
               </a>
             </div>
-            <p className="proj-descript" style={{ color: "#02395d", margin: "12px 0 32px" }}>
+            <p className="proj-descript">
               {collection?.json?.description}
             </p>
 
             <div
               className="live-count-sect"
-              style={{
-                display: "flex",
-                padding: ".8rem 3.2rem",
-                placeSelf: "center",
-              }}
             >
               <p>
                 {candyMachine ? (
@@ -443,41 +405,24 @@ useEffect(() => {
             </div>
             <div
               className="low-cm-text"
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                padding: "16px 12px",
-                borderRadius: "16px",
-              }}
             >
               <div
                 className="pubmint"
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  marginBottom: "4px",
-                }}
               >
                 <span>Public Mint</span>
                 <b>{cost} SOL</b>
               </div>
               <div
                 className="ls-count"
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  marginBottom: "16px",
-                }}
               >
-                <span className="font-span" style={{ fontSize: "12px" }}>Live</span>
-                <span className="font-span" style={{ fontSize: "12px" }}>
+                <span className="font-span" >Live</span>
+                <span className="font-span" >
                   {percentage}% ({candyMachine?.itemsMinted?.toString()}/
                   {candyMachine?.itemsAvailable?.toString()})
                 </span>
               </div>
               <div
                 className="mint-sect"
-                style={{ display: "flex", alignItems: "center", gap: "4px", fontFamily: "acier-bat-solid" }}
               >
                 <button
                   style={{ flex: 1 }}
@@ -493,36 +438,12 @@ useEffect(() => {
                   defaultValue={1}
                   value={mintQuantity}
                   onChange={(e) => setMintQuantity(Number(e.target.value))}
-                  style={{
-                    alignSelf: "stretch",
-                    width: "39px",
-                    fontSize: "16px",
-                    textAlign: "center",
-                    fontFamily: "acier-bat-solid",
-                    borderRadius: "9px",
-                    border: "2px solid #02395d",
-                  }}
                   type="number"
                 />
               </div>
               <WalletMultiButton
-                style={{
-                  width: "100%",
-                  height: "auto",
-                  marginTop: "8px",
-                  padding: "8px 0",
-                  justifyContent: "center",
-                  fontSize: "13px",
-                  backgroundColor: "rgb(17, 17, 17",
-                  lineHeight: "1.45",
-                  fontFamily: "acier-bat-solid",
-                }}
               />
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "4px",
-                }}
               >
                 {formMessage}
               </p>
@@ -530,20 +451,8 @@ useEffect(() => {
           </div>
           <div
             className="footer"
-            style={{
-              backgroundColor: "#02395d",
-              height: "100px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              color: "#FBF3E2",
-              fontSize: "24px",
-              textAlign: "center",
-              marginTop: "50px",
-              width: "100%",
-            }}
           >
-            <p style={{ margin: 0 }}>2023 CEC</p>
+            <p>2023 CEC</p>
           </div>          
         </main>
       ) : (
@@ -582,29 +491,7 @@ useEffect(() => {
         </div>
       )}
       <style jsx>{`
-        main {
-          flex-direction: column;
-        }
-
-        .title {
-          font-size: 32px;
-          text-align: center;
-        }
-        @media (min-width: 768px) {
-          main {
-            flex-direction: row;
-          }
-          .collection-img {
-            max-height: 70vh;
-            max-width: 640px;
-          }
-        }
-
-        @media (min-width: 1280px) {
-          .title {
-            font-size: 48px;
-          }
-        }
+        
 
         @media (min-width: 1920px) and (min-height: 1080px) {
           main {
