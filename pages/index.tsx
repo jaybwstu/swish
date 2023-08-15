@@ -552,6 +552,9 @@ useEffect(() => {
           .font-span {
             font-size: 23px;
           }
+          WalletMultiButton {
+            font-size: 23px;
+          }
         }
 
         @media (min-width: 1920px) and (min-height: 1080px) {
