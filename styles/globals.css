@@ -195,6 +195,9 @@ button:disabled {
   .main-container {
   
   }
+  .wallet-adapter-button- {
+    font-size: 23px;
+  }
   button {
     padding: 31px 61px;
     border-radius: 16px;
