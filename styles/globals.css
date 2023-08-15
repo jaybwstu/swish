@@ -15,10 +15,10 @@ a {
 }
 
 body {
-  background-color: #fbf3e2;
+  background-color: #333333;
   font-family: acier-bat-solid,sans-serif;
   margin: 0;
-  background-image: url(https://soulagain.crypto-elites.club/assets/images/nft/character1.gif);
+  background-image: url(https://crypto-elites.club/img/logo.png);
   background-position: 50%,50%;
   background-size: cover;
 }
@@ -41,7 +41,7 @@ img {
   min-height: 100vh;
   background-color: #fbf3e2e6;
   color: #02395d;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.45;
   margin: 0;
   background-image: url(https://soulagain.crypto-elites.club/assets/images/nft/meshspiralmulti.svg);
@@ -170,8 +170,8 @@ button {
   width: 100%;
 }
 button {
-  color: #02395d;
-  background-color: #00ffbd;
+  color: #FBF3E2;
+  background-color: #02395d;
   padding: 16px 20px;
   border-radius: 8px;
   transition: all 0.225s linear;
@@ -191,7 +191,28 @@ button:disabled {
   opacity: 0.5;
 }
 
-@media (min-width: 3840px) and (min-height: 2160px) {
+@media (min-width: 1600px) and (min-height: 900px) {
+  .main-container {
+  
+  }
+  button {
+    padding: 31px 61px;
+    border-radius: 16px;
+    font-size: 38px;
+    border: 5px solid #01ab7f;
+  }
+}
+
+@media (min-width: 2560px) and (min-height: 1440px) {
+  button {
+    padding: 31px 61px;
+    border-radius: 16px;
+    font-size: 38px;
+    border: 5px solid #01ab7f;
+  }
+}
+
+@media (min-width: 2560px) and (min-height: 1440px) {
   button {
     padding: 31px 61px;
     border-radius: 16px;

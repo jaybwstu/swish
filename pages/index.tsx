@@ -438,11 +438,69 @@ useEffect(() => {
                   defaultValue={1}
                   value={mintQuantity}
                   onChange={(e) => setMintQuantity(Number(e.target.value))}
+                  style={{
+                    alignSelf: "stretch",
+                    width: "39px",
+                    fontSize: "16px",
+                    textAlign: "center",
+                    fontFamily: "acier-bat-solid",
+                    borderRadius: "9px",
+                    border: "2px solid #02395d",
+                    '@media (min-width: 1600px) and (min-height: 900px)': {
+                      width: "39px",
+                      fontSize: '20px',
+                      borderRadius: "9px",
+                      border: "2px solid #02395d",
+                    },
+                    '@media (min-width: 1920px) and (min-height: 1080px)': {
+                      width: "39px",
+                      fontSize: '20px',
+                      borderRadius: "9px",
+                      border: "2px solid #02395d",
+                    }
+                    '@media (min-width: 2560px) and (min-height: 1440px)': {
+                      width: "76px",
+                      fontSize: '38px',
+                      borderRadius: "16px",
+                      border: "2px solid #02395d",
+                    }
+                    '@media (min-width: 3840px) and (min-height: 2160px)': {
+                      width: "39px",
+                      fontSize: '20px',
+                      borderRadius: "9px",
+                      border: "2px solid #02395d",
+                    }
+                  }}
                   type="number"
                 />
               </div>
               <WalletMultiButton
-              className="Wal-Button"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  marginTop: "8px",
+                  padding: "8px 0",
+                  justifyContent: "center",
+                  fontSize: "13px",
+                  color: "#02395d",
+                  backgroundColor: "#BA4564",
+                  lineHeight: "1.45",
+                  fontFamily: "acier-bat-solid",
+                  cursor: "pointer",
+                  display: "flex",
+                  '@media (min-width: 1600px) and (min-height: 900px)': {
+                    fontSize: '20px', // Font size at 1280x800
+                  },
+                  '@media (min-width: 1920px) and (min-height: 1080px)': {
+                    fontSize: '40px', // Font size at 3840x2160
+                  }
+                  '@media (min-width: 2560px) and (min-height: 1440px)': {
+                    fontSize: '20px', // Font size at 1280x800
+                  },
+                  '@media (min-width: 3840px) and (min-height: 2160px)': {
+                    fontSize: '40px', // Font size at 3840x2160
+                  }
+                }}              
               />
               <p
               >
@@ -486,7 +544,7 @@ useEffect(() => {
               height: '10px',
               backgroundColor: '#01C9FE',
               marginTop: '20px',
-              transition: 'width 0.3s ease-in-out',
+              transition: 'width 0.5s ease-in-out',
             }}></div>
           </div>
         </div>
@@ -494,9 +552,9 @@ useEffect(() => {
       <style jsx>{`
         
 
-        @media (min-width: 1280px) and (min-height: 800px) {
+        @media (min-width: 1600px) and (min-height: 900px) {
           main {
-            font-size: 30px;
+            font-size: 27px;
           }
           .title {
             font-size: 41px;
@@ -531,11 +589,144 @@ useEffect(() => {
           .font-span {
             font-size: 23px;
           }
-          .a-count {
-            font-size: 20px;
+        }
+
+        @media (min-width: 1920px) and (min-height: 1080px) {
+          main {
+            gap: 94px;
+            font-size: 59px;
+            line-height: 2;
           }
-          WalletMultiButton {
-            font-size: 20px;
+          .header {
+            height: 197px;
+            margin-bottom: 98px
+          }
+          .Navhome {
+            font-size: 47px;
+          }
+          .cm-window {
+            box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.20);
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            border-radius: 31px;
+          }
+          .title {
+            font-size: 79px;
+          }
+          .icon-tabler-brand-discord-filled {
+            height: 82px;
+            width: 82px;
+          }
+          .icon-tabler-brand-facebook-filled {
+            height: 78px;
+            width: 78px;
+          }
+          .icon-tabler-brand-magic-eden-filled {
+            height: 114px;
+            width: 114px;
+          }
+          .icon-tabler-brand-opensea-filled {
+            height: 78px;
+            width: 78px;
+          }
+          .icon-tabler-brand-reddit-filled {
+            height: 82px;
+            width: 82px;
+          }
+          .icon-tabler-brand-twitter-filled {
+            height: 78px;
+            width: 78px;
+          }
+          .proj-descript {
+            margin: 42px 80px 42px;
+          }
+          .live-count-sect {
+            padding: 1.8rem 6.2rem;
+          }
+          .low-cm-text {
+            padding: 31px 23px;
+          }
+          .pubmint {
+            margin-bottom: 7px;
+          }
+          .font-span {
+            font-size: 45px;
+          }
+          .mint-sect {
+            gap: 8px;
+          }
+          .footer {
+            height: 197px;
+            font-size: 47px;
+            margin-top: 98px;
+          }
+        }
+        @media (min-width: 2560px) and (min-height: 1440px) {
+          main {
+            gap: 94px;
+            font-size: 59px;
+            line-height: 2;
+          }
+          .header {
+            height: 197px;
+            margin-bottom: 98px
+          }
+          .Navhome {
+            font-size: 47px;
+          }
+          .cm-window {
+            box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.20);
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            border-radius: 31px;
+          }
+          .title {
+            font-size: 79px;
+          }
+          .icon-tabler-brand-discord-filled {
+            height: 82px;
+            width: 82px;
+          }
+          .icon-tabler-brand-facebook-filled {
+            height: 78px;
+            width: 78px;
+          }
+          .icon-tabler-brand-magic-eden-filled {
+            height: 114px;
+            width: 114px;
+          }
+          .icon-tabler-brand-opensea-filled {
+            height: 78px;
+            width: 78px;
+          }
+          .icon-tabler-brand-reddit-filled {
+            height: 82px;
+            width: 82px;
+          }
+          .icon-tabler-brand-twitter-filled {
+            height: 78px;
+            width: 78px;
+          }
+          .proj-descript {
+            margin: 42px 80px 42px;
+          }
+          .live-count-sect {
+            padding: 1.8rem 6.2rem;
+          }
+          .low-cm-text {
+            padding: 31px 23px;
+          }
+          .pubmint {
+            margin-bottom: 7px;
+          }
+          .font-span {
+            font-size: 45px;
+          }
+          .mint-sect {
+            gap: 8px;
+          }
+          .footer {
+            height: 197px;
+            font-size: 47px;
+            margin-top: 98px;
           }
         }
 
@@ -601,17 +792,6 @@ useEffect(() => {
           }
           .mint-sect {
             gap: 8px;
-          }
-          .a-count {
-            width: 76px;
-            font-size: 39px;
-            border-radius: 16px;
-            border: 4px solid #02395d;
-          }
-          WalletMultiButton {
-            margin-top: 15px;
-            padding: 15px 0px;
-            font-size: 38px;
           }
           .footer {
             height: 197px;
