@@ -193,9 +193,9 @@ button:disabled {
 
 @media (min-width: 1600px) and (min-height: 900px) {
   .main-container {
-  
+  font-size: 27px;
   }
-  .wallet-adapter-button- {
+  .wallet-adapter-button {
     font-size: 23px;
   }
   button {
