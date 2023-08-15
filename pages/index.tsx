@@ -555,7 +555,7 @@ useEffect(() => {
           WalletMultiButton {
             font-size: 23px;
           }
-          .wallet-adapter-button- {
+          .wallet-adapter-button {
             font-size: 23px;
           }
         }
