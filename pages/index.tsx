@@ -446,30 +446,6 @@ useEffect(() => {
                     fontFamily: "acier-bat-solid",
                     borderRadius: "9px",
                     border: "2px solid #02395d",
-                    "@media (min-width: 1600px) and (min-height: 900px)": {
-                      width: "39px",
-                      fontSize: '20px',
-                      borderRadius: "9px",
-                      border: "2px solid #02395d",
-                    },
-                    "@media (min-width: 1920px) and (min-height: 1080px)": {
-                      width: "39px",
-                      fontSize: '20px',
-                      borderRadius: "9px",
-                      border: "2px solid #02395d",
-                    }
-                    "@media (min-width: 2560px) and (min-height: 1440px)": {
-                      width: "76px",
-                      fontSize: '38px',
-                      borderRadius: "16px",
-                      border: "2px solid #02395d",
-                    }
-                    "@media (min-width: 3840px) and (min-height: 2160px)": {
-                      width: "39px",
-                      fontSize: '20px',
-                      borderRadius: "9px",
-                      border: "2px solid #02395d",
-                    }
                   }}
                   type="number"
                 />
@@ -488,17 +464,6 @@ useEffect(() => {
                   fontFamily: "acier-bat-solid",
                   cursor: "pointer",
                   display: "flex",
-                  "@media (min-width: 1600px) and (min-height: 900px)": {
-                    fontSize: '20px', // Font size at 1280x800
-                  },
-                  "@media (min-width: 1920px) and (min-height: 1080px)": {
-                    fontSize: '40px', // Font size at 3840x2160
-                  }
-                  "@media (min-width: 2560px) and (min-height: 1440px)": {
-                    fontSize: '20px', // Font size at 1280x800
-                  },
-                  "@media (min-width: 3840px) and (min-height: 2160px)": {
-                    fontSize: '40px', // Font size at 3840x2160
                   }
                 }}              
               />
@@ -587,6 +552,9 @@ useEffect(() => {
             margin: 32px 40px 32px;
           }
           .font-span {
+            font-size: 23px;
+          }
+          WalletMultiButton {
             font-size: 23px;
           }
         }
