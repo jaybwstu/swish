@@ -464,7 +464,6 @@ useEffect(() => {
                   fontFamily: "acier-bat-solid",
                   cursor: "pointer",
                   display: "flex",
-                  }
                 }}              
               />
               <p
@@ -552,9 +551,6 @@ useEffect(() => {
             margin: 32px 40px 32px;
           }
           .font-span {
-            font-size: 23px;
-          }
-          WalletMultiButton {
             font-size: 23px;
           }
         }
