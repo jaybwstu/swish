@@ -450,8 +450,10 @@ useEffect(() => {
                   type="number"
                 />
               </div>
+              <div 
+                className="wmb"
+                >
               <WalletMultiButton
-                id="wmb"
                 style={{
                   width: "100%",
                   height: "auto",
@@ -467,6 +469,7 @@ useEffect(() => {
                   display: "flex",
                 }}              
               />
+              </div>
               <p>
                 {formMessage}
               </p>
@@ -571,7 +574,7 @@ useEffect(() => {
           .WalletMultiButton {
             font-size: 23px;
           }
-          #wmb {
+          .wmb {
             font-size: 24px;
           }
           .wallet-adapter-button {
