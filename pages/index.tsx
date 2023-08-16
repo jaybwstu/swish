@@ -451,6 +451,7 @@ useEffect(() => {
                 />
               </div>
               <WalletMultiButton
+                id="wmb"
                 style={{
                   width: "100%",
                   height: "auto",
@@ -552,8 +553,26 @@ useEffect(() => {
           .font-span {
             font-size: 23px;
           }
+          .a-count {
+            width: 76px;
+            font-size: 38px;
+            border-radius: 16px;
+            border: 4px solid;
+          }
+          input {
+            width: 76px;
+            font-size: 38px;
+            border-radius: 16px;
+            border: 4px solid;
+          }
           WalletMultiButton {
             font-size: 23px;
+          }
+          .WalletMultiButton {
+            font-size: 23px;
+          }
+          #wmb {
+            font-size: 24px;
           }
           .wallet-adapter-button {
             font-size: 23px;
