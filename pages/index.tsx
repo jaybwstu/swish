@@ -433,31 +433,13 @@ useEffect(() => {
                     ? "Minting your NFT..."
                     : `Mint ${mintQuantity} for ${mintQuantity * cost} SOL`}
                 </button>
-                <div 
+                <input
                   className="a-count"
-                >
-                  <input
-                    defaultValue={1}
-                    value={mintQuantity}
-                    onChange={(e) => setMintQuantity(Number(e.target.value))}
-                    style={{
-                      alignSelf: "stretch",
-                      width: "39px",
-                      fontSize: "",
-                      textAlign: "center",
-                      fontFamily: "acier-bat-solid",
-                      borderRadius: "9px",
-                      border: "2px solid #02395d",
-                      @media (min-width: 1920px) and (min-height: 1080px): {
-                        width: "59px",
-                        fontSize: '30px',
-                        borderRadius: "9px",
-                        border: "2px solid #02395d",
-                      },
-                    }}
-                    type="number"
-                  />
-                </div>
+                  defaultValue={1}
+                  value={mintQuantity}
+                  onChange={(e) => setMintQuantity(Number(e.target.value))}
+                  type="number"
+                />
               </div>
               <div 
                 className="wmb"
@@ -534,6 +516,8 @@ useEffect(() => {
             padding: 8px 0;
             fontSize: 13px;
             lineHeight: 1.45;
+            cursor: "pointer",
+            display: "flex",
           }
         }
          
