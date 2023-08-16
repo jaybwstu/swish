@@ -452,7 +452,7 @@ useEffect(() => {
               </div>
               <div 
                 className="wmb"
-                >
+              >
               <WalletMultiButton
                 style={{
                   width: "100%",
