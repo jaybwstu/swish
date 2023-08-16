@@ -433,22 +433,25 @@ useEffect(() => {
                     ? "Minting your NFT..."
                     : `Mint ${mintQuantity} for ${mintQuantity * cost} SOL`}
                 </button>
-                <input
+                <div 
                   className="a-count"
-                  defaultValue={1}
-                  value={mintQuantity}
-                  onChange={(e) => setMintQuantity(Number(e.target.value))}
-                  style={{
-                    alignSelf: "stretch",
-                    width: "39px",
-                    fontSize: "16px",
-                    textAlign: "center",
-                    fontFamily: "acier-bat-solid",
-                    borderRadius: "9px",
-                    border: "2px solid #02395d",
-                  }}
-                  type="number"
-                />
+                >
+                  <input
+                    defaultValue={1}
+                    value={mintQuantity}
+                    onChange={(e) => setMintQuantity(Number(e.target.value))}
+                    style={{
+                      alignSelf: "stretch",
+                      width: "39px",
+                      fontSize: "inherit",
+                      textAlign: "center",
+                      fontFamily: "acier-bat-solid",
+                      borderRadius: "9px",
+                      border: "2px solid #02395d",
+                    }}
+                    type="number"
+                  />
+                </div>
               </div>
               <div 
                 className="wmb"
@@ -457,10 +460,10 @@ useEffect(() => {
                 style={{
                   width: "100%",
                   height: "auto",
-                  marginTop: "8px",
-                  padding: "8px 0",
+                  marginTop: "inherit",
+                  padding: "inherit",
                   justifyContent: "center",
-                  fontSize: "13px",
+                  fontSize: "inherit",
                   color: "#02395d",
                   backgroundColor: "#BA4564",
                   lineHeight: "1.45",
@@ -517,8 +520,23 @@ useEffect(() => {
         </div>
       )}
       <style jsx>{`
-        
-
+         @media (min-width: 1280px) {
+          .wmb {
+            width: "100%",
+            height: "auto",
+            marginTop: "8px",
+            padding: "8px 0",
+            justifyContent: "center",
+            fontSize: "13px",
+            color: "#02395d",
+            backgroundColor: "#BA4564",
+            lineHeight: "1.45",
+            fontFamily: "acier-bat-solid",
+            cursor: "pointer",
+            display: "flex",
+          }
+        }
+         
         @media (min-width: 1600px) and (min-height: 900px) {
           main {
             font-size: 27px;
@@ -568,17 +586,8 @@ useEffect(() => {
             border-radius: 16px;
             border: 4px solid;
           }
-          WalletMultiButton {
-            font-size: 23px;
-          }
-          .WalletMultiButton {
-            font-size: 23px;
-          }
           .wmb {
             font-size: 24px;
-          }
-          .wallet-adapter-button {
-            font-size: 23px;
           }
         }
 
