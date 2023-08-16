@@ -448,7 +448,7 @@ useEffect(() => {
                       fontFamily: "acier-bat-solid",
                       borderRadius: "9px",
                       border: "2px solid #02395d",
-                      "@media (min-width: 1920px) and (min-height: 1080px)": {
+                      @media (min-width: 1920px) and (min-height: 1080px): {
                         width: "59px",
                         fontSize: '30px',
                         borderRadius: "9px",
