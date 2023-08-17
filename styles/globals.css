@@ -56,6 +56,17 @@ img {
   align-items: center;
   width: 100%;
 }
+.h-cont {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 20px;
+}
+.left-sect {
+  display: flex;
+  align-items: center;
+  width: 12%;
+}
 .logo {
   width: 100%;
   max-height: 90px;

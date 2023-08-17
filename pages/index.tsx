@@ -233,17 +233,19 @@ useEffect(() => {
           <div
             className="header"
           >
-            <div className="left_sect">
-              <a href="https://soulagain.crypto-elites.club/">
-                <img className="logo" src="https://soulagain.crypto-elites.club/assets/images/logoC.svg"/>
-              </a>
-              <a href="https://runonflux.io/fluxlabs.html">
-                <img className="logo-flux" src="https://soulagain.crypto-elites.club/assets/images/icon/flux_labs.svg"/>
+            <div className="h-cont">
+              <div className="left-sect">
+                <a href="https://soulagain.crypto-elites.club/">
+                  <img className="logo" src="https://soulagain.crypto-elites.club/assets/images/logoC.svg"/>
+                </a>
+                <a href="https://runonflux.io/fluxlabs.html">
+                  <img className="logo-flux" src="https://soulagain.crypto-elites.club/assets/images/icon/flux_labs.svg"/>
+                </a>
+              </div>
+              <a href="https://soulagain.crypto-elites.club/" className="Navhome">
+                Home
               </a>
             </div>
-            <a href="https://soulagain.crypto-elites.club/" className="Navhome">
-              Home
-            </a>
           </div>          
           <div
             className="cm-window"
