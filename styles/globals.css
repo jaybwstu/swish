@@ -57,14 +57,15 @@ img {
   width: 100%;
 }
 .h-cont {
+  display: flex;
+  align-items: center;
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
   padding: 0px 20px;
 }
 .left-sect {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 15%;
 }
 .logo {
@@ -85,7 +86,8 @@ img {
   font-size: 24px;
   display: flex;
   justify-content: center;
-  width: 85%;
+  width: 70%;
+  margin-right: 20px;
 }
 
 .cm-window {
