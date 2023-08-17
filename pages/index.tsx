@@ -233,6 +233,16 @@ useEffect(() => {
           <div
             className="header"
           >
+            <div class="left_sect">
+                <div class="logo">
+                    <a href="#home"><img src="https://soulagain.crypto-elites.club/assets/images/logoC.svg"/>
+                    </a>
+                </div>
+                <div class="logo-flux">
+                    <a href="https://runonflux.io/fluxlabs.html"><img src="assets/images/icon/flux_labs.svg"/>
+                    </a>
+                </div>
+            </div>
             <a href="https://soulagain.crypto-elites.club/" className="Navhome">
               Home
             </a>
@@ -633,7 +643,6 @@ useEffect(() => {
         @media (min-width: 2560px) and (min-height: 1440px) {
           main {
             font-size: 59px;
-            line-height: 2;
           }
           .header {
             height: 197px;
@@ -706,7 +715,6 @@ useEffect(() => {
           .footer {
             height: 197px;
             font-size: 47px;
-
           }
         }
 
@@ -716,7 +724,6 @@ useEffect(() => {
           }
           .header {
             height: 298px;
-            margin-bottom: 198px;
           }
           .Navhome {
             font-size: 70px;
@@ -785,7 +792,7 @@ useEffect(() => {
           }
           .footer {
             height: 298px;
-            font-size: 47px;
+            font-size: 70px;
           }
         }
       `}</style>
