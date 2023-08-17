@@ -557,7 +557,7 @@ useEffect(() => {
           main {
             gap: 71px;
             font-size: 39px;
-            line-height: 2;
+            line-height: 1.6;
           }
           .header {
             height: 125px;
@@ -719,8 +719,8 @@ useEffect(() => {
         @media (min-width: 3840px) and (min-height: 2160px) {
           main {
             gap: 141px;
-            font-size: 94px
-            line-height: 2;
+            font-size: 94px;
+            line-height: 2.4;
           }
           .header {
             height: 298px;
