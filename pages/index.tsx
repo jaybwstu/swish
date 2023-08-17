@@ -512,7 +512,7 @@ useEffect(() => {
          
         @media (min-width: 1440px) and (min-height: 810px) {
           main {
-            font-size: 27px;
+            font-size: 29px;
           }
           .title {
             font-size: 41px;
@@ -555,14 +555,13 @@ useEffect(() => {
 
         @media (min-width: 1920px) and (min-height: 1080px) {
           main {
-            font-size: 39px;
+            font-size: 36px;
           }
           .header {
             height: 125px;
-            margin-bottom: 63px;
           }
           .Navhome {
-            font-size: 35px;
+            font-size: 33px;
           }
           .cm-window {
             box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.20);
@@ -629,7 +628,6 @@ useEffect(() => {
           .footer {
             height: 125px;
             font-size: 47px;
-            margin-top: 63px;
           }
         }
         @media (min-width: 2560px) and (min-height: 1440px) {
@@ -639,7 +637,6 @@ useEffect(() => {
           }
           .header {
             height: 197px;
-            margin-bottom: 98px;
           }
           .Navhome {
             font-size: 47px;
@@ -709,7 +706,7 @@ useEffect(() => {
           .footer {
             height: 197px;
             font-size: 47px;
-            margin-top: 98px;
+
           }
         }
 
@@ -789,7 +786,6 @@ useEffect(() => {
           .footer {
             height: 298px;
             font-size: 47px;
-            margin-top: 198px;
           }
         }
       `}</style>
