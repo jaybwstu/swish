@@ -450,6 +450,7 @@ useEffect(() => {
                   height: "auto",
                   marginTop: "inherit",
                   padding: "inherit",
+                  border-radius: "inherit",
                   justifyContent: "center",
                   fontSize: "inherit",
                   color: "#02395d",
@@ -508,20 +509,8 @@ useEffect(() => {
         </div>
       )}
       <style jsx>{`
-         @media (min-width: 1280px) {
-          .wmb {
-            width: 100%;
-            height: auto;
-            marginTop: 8px;
-            padding: 8px 0;
-            fontSize: 13px;
-            lineHeight: 1.45;
-            cursor: "pointer",
-            display: "flex",
-          }
-        }
          
-        @media (min-width: 1600px) and (min-height: 900px) {
+        @media (min-width: 1440px) and (min-height: 810px) {
           main {
             font-size: 27px;
           }
@@ -558,43 +547,32 @@ useEffect(() => {
           .font-span {
             font-size: 23px;
           }
-          .a-count {
-            width: 76px;
-            font-size: 38px;
-            border-radius: 16px;
-            border: 4px solid;
-          }
-          input {
-            width: 76px;
-            font-size: 38px;
-            border-radius: 16px;
-            border: 4px solid;
-          }
           .wmb {
-            font-size: 24px;
+            font-size: 20px;
           }
+          
         }
 
         @media (min-width: 1920px) and (min-height: 1080px) {
           main {
-            gap: 94px;
-            font-size: 59px;
+            gap: 71px;
+            font-size: 39px;
             line-height: 2;
           }
           .header {
-            height: 197px;
-            margin-bottom: 98px
+            height: 125px;
+            margin-bottom: 63px;
           }
           .Navhome {
-            font-size: 47px;
+            font-size: 35px;
           }
           .cm-window {
-            box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.20);
-            border: 2px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.20);
+            border: 1.5px solid rgba(0, 0, 0, 0.1);
             border-radius: 31px;
           }
           .title {
-            font-size: 79px;
+            font-size: 60px;
           }
           .icon-tabler-brand-discord-filled {
             height: 82px;
@@ -621,27 +599,39 @@ useEffect(() => {
             width: 78px;
           }
           .proj-descript {
-            margin: 42px 80px 42px;
+            margin: 51px 60px 37px;
           }
           .live-count-sect {
-            padding: 1.8rem 6.2rem;
+            padding: 1.6rem 4.6rem;
           }
           .low-cm-text {
-            padding: 31px 23px;
+            padding: 24px 18px;
           }
           .pubmint {
-            margin-bottom: 7px;
+            margin-bottom: 5px;
+          }
+          .ls-count {
+            margin-bottom: 23px;
           }
           .font-span {
-            font-size: 45px;
+            font-size: 34px;
           }
           .mint-sect {
-            gap: 8px;
+            gap: 6px;
+          }
+          .a-count {
+            width: 57px;
+            font-size: 29px;
+            border-radius: 16px;
+            border: 3px solid #02395d;
+          }
+          .wmb {
+            font-size: 29px;
           }
           .footer {
-            height: 197px;
+            height: 125px;
             font-size: 47px;
-            margin-top: 98px;
+            margin-top: 63px;
           }
         }
         @media (min-width: 2560px) and (min-height: 1440px) {
@@ -652,7 +642,7 @@ useEffect(() => {
           }
           .header {
             height: 197px;
-            margin-bottom: 98px
+            margin-bottom: 98px;
           }
           .Navhome {
             font-size: 47px;
@@ -663,7 +653,7 @@ useEffect(() => {
             border-radius: 31px;
           }
           .title {
-            font-size: 79px;
+            font-size: 80px;
           }
           .icon-tabler-brand-discord-filled {
             height: 82px;
@@ -696,16 +686,28 @@ useEffect(() => {
             padding: 1.8rem 6.2rem;
           }
           .low-cm-text {
-            padding: 31px 23px;
+            padding: 31px 24px;
           }
           .pubmint {
             margin-bottom: 7px;
+          }
+          .ls-count {
+            margin-bottom: 33px;
           }
           .font-span {
             font-size: 45px;
           }
           .mint-sect {
             gap: 8px;
+          }
+          .a-count {
+            width: 76px;
+            font-size: 39px;
+            border-radius: 16px;
+            border: 4px solid #02395d;
+          ]
+          .wmb {
+            font-size: 39px;
           }
           .footer {
             height: 197px;
@@ -716,24 +718,24 @@ useEffect(() => {
 
         @media (min-width: 3840px) and (min-height: 2160px) {
           main {
-            gap: 94px;
-            font-size: 59px;
+            gap: 141px;
+            font-size: 94px
             line-height: 2;
           }
           .header {
-            height: 197px;
-            margin-bottom: 98px
+            height: 298px;
+            margin-bottom: 198px;
           }
           .Navhome {
-            font-size: 47px;
+            font-size: 70px;
           }
           .cm-window {
-            box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.20);
+            box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.20);
             border: 2px solid rgba(0, 0, 0, 0.1);
             border-radius: 31px;
           }
           .title {
-            font-size: 79px;
+            font-size: 120px;
           }
           .icon-tabler-brand-discord-filled {
             height: 82px;
@@ -760,27 +762,39 @@ useEffect(() => {
             width: 78px;
           }
           .proj-descript {
-            margin: 42px 80px 42px;
+            margin: 51px 160px 51px;
           }
           .live-count-sect {
-            padding: 1.8rem 6.2rem;
+            padding: 2.8rem 9.2rem;
           }
           .low-cm-text {
-            padding: 31px 23px;
+            padding: 47px 35px;
           }
           .pubmint {
-            margin-bottom: 7px;
+            margin-bottom: 11px;
+          }
+          .ls-count {
+            margin-bottom: 46px;
           }
           .font-span {
-            font-size: 45px;
+            font-size: 67px;
           }
           .mint-sect {
-            gap: 8px;
+            gap: 16px;
+          }
+          .a-count {
+            width: 114px;
+            font-size: 59px;
+            border-radius: 16px;
+            border: 8px solid #02395d; 
+          }
+          .wmb {
+            font-size: 59px;
           }
           .footer {
-            height: 197px;
+            height: 298px;
             font-size: 47px;
-            margin-top: 98px;
+            margin-top: 198px;
           }
         }
       `}</style>

@@ -20,7 +20,7 @@ body {
   margin: 0;
   background-image: url(https://crypto-elites.club/img/logo.png);
   background-position: 50%,50%;
-  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1,
@@ -39,7 +39,7 @@ img {
   justify-content: space-between;
   gap: 48px;
   min-height: 100vh;
-  background-color: #fbf3e2e6;
+  background-color: #fbf3e2;
   color: #02395d;
   font-size: 20px;
   line-height: 1.45;
@@ -74,6 +74,8 @@ img {
   box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.20);
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #fbf3e2;
+  background-image: url(https://soulagain.crypto-elites.club/assets/images/nft/meshspiralmulti.svg);
+  background-size: contain;
 }
 
 .title {
@@ -86,7 +88,6 @@ img {
   align-items: center;
   gap: 12px;
   justify-content: space-evenly;
-  /* Add styles for the social icons */
 }
 
 .proj-descript {
@@ -130,22 +131,16 @@ button {
   flex: 1;
   /* Add other button styles */
 }
-
-.Wal-Button {
+.wmb {
   width: 100%;
   height: auto;
   margin-top: 8px;
-  padding: 8px 0px;
-  justify-content: center;
-  font-size: 20px;
-  background-color: #BA4564;
-  font-family: 'acier-bat-solid';
+  padding: 8px 0;
+  font-size: 16px;
   line-height: 1.45;
-  font-weight: 400;
-  border: none;
-  color: #02395d;
   cursor: pointer;
-  display: flex;
+  display: grid;
+  border-radius: 8px;
 }
 .a-count {
   align-self: stretch;
@@ -178,12 +173,12 @@ button {
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  border: 1px solid #01ab7f;
+  border: none
 }
 
 button:hover {
   opacity: 0.75;
-  border-color: #00ffbd;
+  border-color: #BA4564;
 }
 
 button:disabled {
@@ -191,18 +186,19 @@ button:disabled {
   opacity: 0.5;
 }
 
-@media (min-width: 1600px) and (min-height: 900px) {
-  .main-container {
-  font-size: 27px;
-  }
-  .WalletMultiButton {
-    font-size: 23px;
-  }
+@media (min-width: 1440px) and (min-height: 810px) {
   button {
-    padding: 31px 61px;
-    border-radius: 16px;
-    font-size: 38px;
-    border: 5px solid #01ab7f;
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+  button {
+    padding: 24px 40px;
+    border-radius: 8px;
+    font-size: 29px;
   }
 }
 
@@ -210,16 +206,14 @@ button:disabled {
   button {
     padding: 31px 61px;
     border-radius: 16px;
-    font-size: 38px;
-    border: 5px solid #01ab7f;
+    font-size: 39px;
   }
 }
 
-@media (min-width: 2560px) and (min-height: 1440px) {
+@media (min-width: 3840px) and (min-height: 2160px) {
   button {
-    padding: 31px 61px;
+    padding: 46px 102px;
     border-radius: 16px;
-    font-size: 38px;
-    border: 5px solid #01ab7f;
+    font-size: 59px;
   }
 }
