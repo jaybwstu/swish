@@ -450,7 +450,7 @@ useEffect(() => {
                   height: "auto",
                   marginTop: "inherit",
                   padding: "inherit",
-                  border-radius: "inherit",
+                  borderRadius: "inherit",
                   justifyContent: "center",
                   fontSize: "inherit",
                   color: "#02395d",
