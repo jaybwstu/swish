@@ -575,28 +575,28 @@ useEffect(() => {
             font-size: 60px;
           }
           .icon-tabler-brand-discord-filled {
-            height: 82px;
-            width: 82px;
+            height: 62px;
+            width: 62px;
           }
           .icon-tabler-brand-facebook-filled {
-            height: 78px;
-            width: 78px;
+            height: 59px;
+            width: 59px;
           }
           .icon-tabler-brand-magic-eden-filled {
-            height: 114px;
-            width: 114px;
+            height: 86px;
+            width: 86px;
           }
           .icon-tabler-brand-opensea-filled {
-            height: 78px;
-            width: 78px;
+            height: 62px;
+            width: 62px;
           }
           .icon-tabler-brand-reddit-filled {
-            height: 82px;
-            width: 82px;
+            height: 62px;
+            width: 62px;
           }
           .icon-tabler-brand-twitter-filled {
-            height: 78px;
-            width: 78px;
+            height: 62px;
+            width: 62px;
           }
           .proj-descript {
             margin: 51px 60px 37px;
@@ -738,28 +738,28 @@ useEffect(() => {
             font-size: 120px;
           }
           .icon-tabler-brand-discord-filled {
-            height: 82px;
-            width: 82px;
+            height: 123px;
+            width: 123px;
           }
           .icon-tabler-brand-facebook-filled {
-            height: 78px;
-            width: 78px;
+            height: 117px;
+            width: 117px;
           }
           .icon-tabler-brand-magic-eden-filled {
-            height: 114px;
-            width: 114px;
+            height: 170px;
+            width: 170px;
           }
           .icon-tabler-brand-opensea-filled {
-            height: 78px;
-            width: 78px;
+            height: 117px;
+            width: 117px;
           }
           .icon-tabler-brand-reddit-filled {
-            height: 82px;
-            width: 82px;
+            height: 123px;
+            width: 123px;
           }
           .icon-tabler-brand-twitter-filled {
-            height: 78px;
-            width: 78px;
+            height: 117px;
+            width: 117px;
           }
           .proj-descript {
             margin: 51px 160px 51px;
