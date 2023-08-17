@@ -235,13 +235,13 @@ useEffect(() => {
           >
             <div className="left_sect">
                 <div className="logo">
-                    <a href="#home">
+                    <a href="https://soulagain.crypto-elites.club/">
                       <img src="https://soulagain.crypto-elites.club/assets/images/logoC.svg"/>
                     </a>
                 </div>
                 <div className="logo-flux">
                     <a href="https://runonflux.io/fluxlabs.html">
-                      <img src="assets/images/icon/flux_labs.svg"/>
+                      <img src="https://soulagain.crypto-elites.club/assets/images/icon/flux_labs.svg"/>
                     </a>
                 </div>
             </div>

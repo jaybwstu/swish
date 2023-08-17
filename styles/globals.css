@@ -56,6 +56,17 @@ img {
   align-items: center;
   width: 100%;
 }
+.logo {
+  width: 100%;
+  max-height: 100px;
+  height: 100px;
+}
+
+.logo-flux {
+  width: 100%;
+  max-height: 64px;
+  height: 64px;
+}
 
 .Navhome {
   color: #FBF3E2;
