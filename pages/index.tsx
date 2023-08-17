@@ -639,9 +639,10 @@ useEffect(() => {
           }
           .footer {
             height: 125px;
-            font-size: 47px;
+            font-size: 33px;
           }
         }
+
         @media (min-width: 2560px) and (min-height: 1440px) {
           main {
             font-size: 59px;
