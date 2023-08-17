@@ -234,16 +234,12 @@ useEffect(() => {
             className="header"
           >
             <div className="left_sect">
-                <div className="logo">
-                    <a href="https://soulagain.crypto-elites.club/">
-                      <img src="https://soulagain.crypto-elites.club/assets/images/logoC.svg"/>
-                    </a>
-                </div>
-                <div className="logo-flux">
-                    <a href="https://runonflux.io/fluxlabs.html">
-                      <img src="https://soulagain.crypto-elites.club/assets/images/icon/flux_labs.svg"/>
-                    </a>
-                </div>
+              <a href="https://soulagain.crypto-elites.club/">
+                <img className="logo" src="https://soulagain.crypto-elites.club/assets/images/logoC.svg"/>
+              </a>
+              <a href="https://runonflux.io/fluxlabs.html">
+                <img className="logo-flux" src="https://soulagain.crypto-elites.club/assets/images/icon/flux_labs.svg"/>
+              </a>
             </div>
             <a href="https://soulagain.crypto-elites.club/" className="Navhome">
               Home
