@@ -443,7 +443,7 @@ useEffect(() => {
                 >
                   {isLoading
                     ? "Minting your NFT..."
-                    : `Mint ${mintQuantity} for ${mintQuantity * cost} SOL`}
+                    : `Mint`}
                 </button>
                 <input
                   className="a-count"
