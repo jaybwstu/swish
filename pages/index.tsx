@@ -458,7 +458,6 @@ useEffect(() => {
                 style={{
                   width: "100%",
                   height: "auto",
-                  marginTop: "inherit",
                   padding: "inherit",
                   borderRadius: "inherit",
                   justifyContent: "center",
@@ -712,6 +711,7 @@ useEffect(() => {
           ]
           .wmb {
             font-size: 39px;
+            margin-top: 12px;
           }
           .footer {
             height: 197px;
@@ -790,6 +790,7 @@ useEffect(() => {
           }
           .wmb {
             font-size: 59px;
+            margin-top: 16px;
           }
           .footer {
             height: 298px;

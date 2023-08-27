@@ -70,8 +70,8 @@ img {
 }
 .logo {
   width: 100%;
-  max-height: 90px;
-  height: 90px;
+  max-height: 84px;
+  height: 84px;
 }
 
 .logo-flux {
@@ -235,9 +235,34 @@ button:disabled {
 }
 
 @media (min-width: 3840px) and (min-height: 2160px) {
+  .logo {
+    max-height: 220px;
+    height: 220px;
+  }
+  .logo-flux {
+    max-height: 140px;
+    height: 140px;
+  }
   button {
     padding: 46px 102px;
     border-radius: 16px;
     font-size: 59px;
+  }
+}
+
+@media (max-width: 426px) {
+  .header {
+    display: none;
+  }
+  .logo {
+    max-height: 100px;
+    height: 100px;
+  }
+  .logo-flux {
+    max-height: 60px;
+    height: 60px;
+  }
+  .left-sect {
+    width: 90%;
   }
 }
