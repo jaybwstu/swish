@@ -227,6 +227,14 @@ button:disabled {
 }
 
 @media (min-width: 2560px) and (min-height: 1440px) {
+  .logo {
+    max-height: 100px;
+    height: 100px;
+  }
+  .logo-flux {
+    max-height: 60px;
+    height: 60px;
+  }
   button {
     padding: 31px 61px;
     border-radius: 16px;
@@ -251,7 +259,7 @@ button:disabled {
 }
 
 @media (max-width: 426px) {
-  .header {
+  .Navhome {
     display: none;
   }
   .logo {
