@@ -257,7 +257,18 @@ button:disabled {
     font-size: 59px;
   }
 }
-
+@media (max-width: 800px) {
+  .logo-flux {
+    max-height: 70px;
+    height: 70px;
+  }
+  .left-sect {
+    width: 25%;
+  }
+  .Navhome {
+    width: 50%;
+  }
+}
 @media (max-width: 426px) {
   .Navhome {
     display: none;
