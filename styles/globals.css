@@ -262,12 +262,12 @@ button:disabled {
     display: none;
   }
   .logo {
-    max-height: 100px;
-    height: 100px;
+    max-height: 90px;
+    height: 90px;
   }
   .logo-flux {
-    max-height: 100px;
-    height: 100px;
+    max-height: 90px;
+    height: 90px;
   }
   .left-sect {
     width: 100%;
