@@ -641,7 +641,7 @@ useEffect(() => {
             font-size: 59px;
           }
           .header, .footer {
-            height: 197px;
+            height: 150px;
           }
           .Navhome, .footer {
             font-size: 47px;
