@@ -258,18 +258,6 @@ button:disabled {
   }
 }
 @media (max-width: 800px) {
-  .logo-flux {
-    max-height: 70px;
-    height: 70px;
-  }
-  .left-sect {
-    width: 25%;
-  }
-  .Navhome {
-    width: 50%;
-  }
-}
-@media (max-width: 426px) {
   .Navhome {
     display: none;
   }
@@ -278,10 +266,10 @@ button:disabled {
     height: 100px;
   }
   .logo-flux {
-    max-height: 60px;
-    height: 60px;
+    max-height: 100px;
+    height: 100px;
   }
   .left-sect {
-    width: 90%;
+    width: 100%;
   }
 }
