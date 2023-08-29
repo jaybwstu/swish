@@ -566,10 +566,10 @@ useEffect(() => {
           main {
             font-size: 36px;
           }
-          .header {
+          .header, .footer {
             height: 125px;
           }
-          .Navhome {
+          .Navhome, .footer {
             font-size: 33px;
           }
           .cm-window {
@@ -634,20 +634,16 @@ useEffect(() => {
           .wmb {
             font-size: 29px;
           }
-          .footer {
-            height: 125px;
-            font-size: 33px;
-          }
         }
 
         @media (min-width: 2560px) and (min-height: 1440px) {
           main {
             font-size: 59px;
           }
-          .header {
+          .header, .footer {
             height: 197px;
           }
-          .Navhome {
+          .Navhome, .footer {
             font-size: 47px;
           }
           .cm-window {
@@ -713,20 +709,16 @@ useEffect(() => {
             font-size: 39px;
             margin-top: 12px;
           }
-          .footer {
-            height: 197px;
-            font-size: 47px;
-          }
         }
 
         @media (min-width: 3840px) and (min-height: 2160px) {
           main {
             font-size: 94px;
           }
-          .header {
+          .header, .footer {
             height: 298px;
           }
-          .Navhome {
+          .Navhome, .footer {
             font-size: 70px;
           }
           .cm-window {
@@ -791,10 +783,6 @@ useEffect(() => {
           .wmb {
             font-size: 59px;
             margin-top: 16px;
-          }
-          .footer {
-            height: 298px;
-            font-size: 70px;
           }
         }
       `}</style>
