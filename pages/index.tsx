@@ -230,6 +230,9 @@ useEffect(() => {
         <main
             className="main-container"
         >
+          <video id="background-video" autoplay loop muted>
+            <source src="https://soulagain.crypto-elites.club/assets/images/bg/spiral.mp4" type="video/mp4">
+          </video>
           <div
             className="header"
           >

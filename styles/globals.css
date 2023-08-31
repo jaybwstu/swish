@@ -41,13 +41,18 @@ img {
   font-size: 20px;
   line-height: 1.45;
   margin: 0;
-  background-image: url(https://soulagain.crypto-elites.club/assets/images/nft/meshspiralmulti.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
-  flex-direction: column;
 }
-
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
 .header {
   background-color: #02395d;
   height: 100px;
