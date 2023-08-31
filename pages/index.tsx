@@ -230,10 +230,6 @@ useEffect(() => {
         <main
             className="main-container"
         >
-          <video id="video" autoPlay loop muted>
-            <source src="https://soulagain.crypto-elites.club/assets/images/bg/spiral.mp4" type="video/mp4">
-            </source>
-          </video>
           <div
             className="header"
           >
@@ -250,11 +246,7 @@ useEffect(() => {
                 Home
               </a>
             </div>
-          </div> 
-          <video id="video" autoPlay loop muted>
-            <source src="https://soulagain.crypto-elites.club/assets/images/bg/spiral.mp4" type="video/mp4">
-            </source>
-          </video>         
+          </div>          
           <div
             className="cm-window"
           >
