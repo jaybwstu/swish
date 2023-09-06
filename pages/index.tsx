@@ -373,8 +373,8 @@ useEffect(() => {
               <a href="https://twitter.com/crypto_e_club" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  width="22"
+                  height="22"
                   fill="none"
                   stroke="#fafafa"
                   strokeLinecap="round"
@@ -603,8 +603,8 @@ useEffect(() => {
             width: 62px;
           }
           .icon-tabler-brand-twitter-filled {
-            height: 62px;
-            width: 62px;
+            height: 59px;
+            width: 59px;
           }
           .proj-descript {
             margin: 51px 60px 37px;

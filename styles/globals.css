@@ -43,6 +43,7 @@ img {
   margin: 0;
   background-image: url(https://soulagain.crypto-elites.club/assets/images/bg/spiral2.gif);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: 50% 50%;
   flex-direction: column;
 }
